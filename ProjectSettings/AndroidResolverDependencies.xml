@@ -1,0 +1,68 @@
+<dependencies>
+  <packages>
+    <package>androidx.annotation:annotation:1.0.0</package>
+    <package>androidx.constraintlayout:constraintlayout:2.0.1</package>
+    <package>androidx.preference:preference:1.1.1</package>
+    <package>androidx.recyclerview:recyclerview:1.1.0</package>
+    <package>co.ogury:ogury-sdk:5.2.0</package>
+    <package>com.adcolony:sdk:4.8.0</package>
+    <package>com.amazon.android:aps-sdk:9.9.2</package>
+    <package>com.applovin:applovin-sdk:12.3.0</package>
+    <package>com.bigossp:bigo-ads:4.5.1</package>
+    <package>com.chartboost:chartboost-mediation-adapter-chartboost:4.9.6.1.1</package>
+    <package>com.chartboost:chartboost-mediation-sdk:4.7.1</package>
+    <package>com.chartboost:chartboost-sdk:9.6.1</package>
+    <package>com.facebook.android:audience-network-sdk:6.17.0</package>
+    <package>com.fyber:marketplace-sdk:8.2.7</package>
+    <package>com.google.android.gms:play-services-ads:23.0.0</package>
+    <package>com.google.android.gms:play-services-ads-identifier:18.0.1</package>
+    <package>com.google.android.gms:play-services-appset:16.0.2</package>
+    <package>com.google.android.gms:play-services-base:18.0.1</package>
+    <package>com.google.android.gms:play-services-basement:18.1.0</package>
+    <package>com.huawei.hms:ads-lite:13.4.70.300</package>
+    <package>com.iabtcf:iabtcf-decoder:2.0.10</package>
+    <package>com.inmobi.monetization:inmobi-ads-kotlin:10.6.7</package>
+    <package>com.ironsource.sdk:mediationsdk:7.9.0</package>
+    <package>com.maio:android-sdk:1.1.16@aar</package>
+    <package>com.mbridge.msdk.oversea:mbbanner:16.6.71</package>
+    <package>com.mbridge.msdk.oversea:mbbid:16.6.71</package>
+    <package>com.mbridge.msdk.oversea:mbnative:16.6.71</package>
+    <package>com.mbridge.msdk.oversea:mbnativeadvanced:16.6.71</package>
+    <package>com.mbridge.msdk.oversea:mbsplash:16.6.71</package>
+    <package>com.mbridge.msdk.oversea:newinterstitial:16.6.71</package>
+    <package>com.mbridge.msdk.oversea:reward:16.6.71</package>
+    <package>com.my.target:mytarget-sdk:5.20.0</package>
+    <package>com.pangle.global:ads-sdk:5.9.0.2</package>
+    <package>com.startapp:inapp-sdk:4.10.7</package>
+    <package>com.tapjoy:tapjoy-android-sdk:12.10.0@aar</package>
+    <package>com.unity3d.ads:unity-ads:4.9.3</package>
+    <package>com.vungle:vungle-ads:7.3.1</package>
+    <package>com.yandex.android:mobileads:6.4.1</package>
+    <package>net.kidoz.sdk:kidoz-android-native:8.9.7</package>
+    <package>net.nend.android:nend-sdk:7.0.3</package>
+    <package>net.pubnative:hybid.sdk:2.21.1</package>
+    <package>org.greenrobot:eventbus:3.3.1</package>
+    <package>org.jetbrains.kotlin:kotlin-reflect:1.7.20</package>
+    <package>org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20</package>
+    <package>org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4</package>
+    <package>org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1</package>
+  </packages>
+  <files />
+  <settings>
+    <setting name="androidAbis" value="arm64-v8a,armeabi-v7a" />
+    <setting name="bundleId" value="com.DefaultCompany.TopTest" />
+    <setting name="explodeAars" value="True" />
+    <setting name="gradleBuildEnabled" value="True" />
+    <setting name="gradlePropertiesTemplateEnabled" value="True" />
+    <setting name="gradleTemplateEnabled" value="True" />
+    <setting name="installAndroidPackages" value="True" />
+    <setting name="localMavenRepoDir" value="Assets/GeneratedLocalRepo" />
+    <setting name="packageDir" value="Assets/Plugins/Android" />
+    <setting name="patchAndroidManifest" value="True" />
+    <setting name="patchMainTemplateGradle" value="True" />
+    <setting name="projectExportEnabled" value="False" />
+    <setting name="useFullCustomMavenRepoPathWhenExport" value="True" />
+    <setting name="useFullCustomMavenRepoPathWhenNotExport" value="False" />
+    <setting name="useJetifier" value="True" />
+  </settings>
+</dependencies>

@@ -1,0 +1,60 @@
+pluginManagement {
+    repositories {
+        **ARTIFACTORYREPOSITORY**
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+
+include ':launcher', ':unityLibrary'
+**INCLUDES**
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        **ARTIFACTORYREPOSITORY**
+        google()
+        mavenCentral()
+// Android Resolver Repos Start
+        def unityProjectPath = $/file:///**DIR_UNITYPROJECT**/$.replace("\\", "/")
+        maven {
+            url "https://cboost.jfrog.io/artifactory/chartboost-ads" // Assets/TpnPlugin/AnyThinkAds/Plugins/Android/NonChina/mediation/chartboost/Editor/Dependencies.xml:6
+        }
+        maven {
+            url "https://cboost.jfrog.io/artifactory/chartboost-mediation" // Assets/TpnPlugin/AnyThinkAds/Plugins/Android/NonChina/mediation/chartboost/Editor/Dependencies.xml:6
+        }
+        maven {
+            url "https://developer.huawei.com/repo/" // Assets/TpnPlugin/AnyThinkAds/Plugins/Android/NonChina/mediation/huawei/Editor/Dependencies.xml:5
+        }
+        maven {
+            url "https://android-sdk.is.com/" // Assets/TpnPlugin/AnyThinkAds/Plugins/Android/NonChina/mediation/ironsource/Editor/Dependencies.xml:5
+        }
+        maven {
+            url "https://imobile-maio.github.io/maven" // Assets/TpnPlugin/AnyThinkAds/Plugins/Android/NonChina/mediation/maio/Editor/Dependencies.xml:5
+        }
+        maven {
+            url "https://dl-maven-android.mintegral.com/repository/mbridge_android_sdk_oversea" // Assets/TpnPlugin/AnyThinkAds/Plugins/Android/NonChina/mediation/mintegral/Editor/Dependencies.xml:5
+        }
+        maven {
+            url "https://fan-adn.github.io/nendSDK-Android-lib/library" // Assets/TpnPlugin/AnyThinkAds/Plugins/Android/NonChina/mediation/nend/Editor/Dependencies.xml:5
+        }
+        maven {
+            url "https://maven.ogury.co" // Assets/TpnPlugin/AnyThinkAds/Plugins/Android/NonChina/mediation/ogury/Editor/Dependencies.xml:5
+        }
+        maven {
+            url "https://artifact.bytedance.com/repository/pangle" // Assets/TpnPlugin/AnyThinkAds/Plugins/Android/NonChina/mediation/pangle/Editor/Dependencies.xml:5
+        }
+        maven {
+            url "https://verve.jfrog.io/artifactory/verve-gradle-release" // Assets/TpnPlugin/AnyThinkAds/Plugins/Android/NonChina/mediation/pubnative/Editor/Dependencies.xml:5
+        }
+        maven {
+            url "https://sdk.tapjoy.com/" // Assets/TpnPlugin/AnyThinkAds/Plugins/Android/NonChina/mediation/tapjoy/Editor/Dependencies.xml:5
+        }
+        mavenLocal()
+// Android Resolver Repos End
+        flatDir {
+            dirs "${project(':unityLibrary').projectDir}/libs"
+        }
+    }
+}

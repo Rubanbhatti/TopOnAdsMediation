@@ -1,0 +1,11 @@
+{
+    "name": "TpnPlugin.Script.Editor",
+    "references": [
+        "TpnPlugin.Script",
+        "TpnPlugin.Script.IntegrationManager.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}

@@ -1,0 +1,6 @@
+<dependencies>
+    <androidPackages>
+        <androidPackage spec="com.amazon.android:aps-sdk:9.9.2"/>
+        <androidPackage spec="com.iabtcf:iabtcf-decoder:2.0.10"/>
+    </androidPackages>
+</dependencies>

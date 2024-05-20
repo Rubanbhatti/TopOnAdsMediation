@@ -1,0 +1,18 @@
+<dependencies>
+    <androidPackages>
+        <repositories>
+            <repository>https://cboost.jfrog.io/artifactory/chartboost-ads</repository>
+            <repository>https://cboost.jfrog.io/artifactory/chartboost-mediation</repository>
+        </repositories>
+        <androidPackage spec="com.chartboost:chartboost-sdk:9.6.1"/>
+        <androidPackage spec="com.chartboost:chartboost-mediation-sdk:4.7.1"/>
+        <androidPackage spec="com.chartboost:chartboost-mediation-adapter-chartboost:4.9.6.1.1"/>
+        <androidPackage spec="org.greenrobot:eventbus:3.3.1"/>
+        <androidPackage spec="org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20"/>
+        <androidPackage spec="org.jetbrains.kotlin:kotlin-reflect:1.7.20"/>
+        <androidPackage spec="org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"/>
+        <androidPackage spec="org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1"/>
+        <androidPackage spec="com.google.android.gms:play-services-ads-identifier:18.0.1"/>
+        <androidPackage spec="com.google.android.gms:play-services-base:18.0.1"/>
+    </androidPackages>
+</dependencies>
